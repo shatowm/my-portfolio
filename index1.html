@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1 id="title">Quiz App</h1>
+    <button id="myButton">Click me to start</button>
+    <script>
+        // Your code goes here
+        const btn = document.getElementById('myButton');
+        btn.addEventListener('click', () => {
+            alert("The match is starting soon—now go code!");
+            document.getElementById('title').innerText = "Quiz Started!";
+        });
+    </script>
+</body>
+</html>
